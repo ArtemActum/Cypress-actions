@@ -3,6 +3,8 @@ declare namespace Cypress {
         visitHomepage(): Chainable<Element>
         visitLoginpage(): Chainable<Element>
         visitFeedbackpage(): Chainable<Element>
+        waitForSeconds(seconds: number): Chainable<Element>
+
     }
 }
 
