@@ -1,16 +1,10 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "lib": [
-            "es5",
-            "dom"
-        ],
-        "types": [
-            "cypress"
-        ]
-    },
-    "include": [
-        "**/*.ts"
-    ],
-    "exclude": []
+  "compilerOptions": {
+    //This is the default settings for Cyprus and TypeScript.
+    "target": "es5", // take it from the Cyprus documentation.
+    "lib": ["es5", "dom"],
+    "types": ["cypress"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": []
 }
